@@ -1,0 +1,30 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsplash Gallery | | Muhammad Talha Naeem Ansari</title>
+    <!-- box icon link -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+    <!-- custom css link -->
+     <link rel="stylesheet" href="css/index.css">
+     <!-- custom js link -->
+      <script src="js/index.js" defer></script>
+ </head>
+ <body>
+    <h1>The best free stock photos, royalty free images shared by creators.</h1>
+    <form id="search_form">
+        <input id="search_box" type="text" placeholder="Search images">
+        <button type="button" class='ri-search-line' title="Search images"></button>
+    </form>
+    <div id="error_message" class="error-message"
+    ><p>😔</p>
+    No results found. Please try a different keyword.</div>
+    <div id="search_result"></div>
+    <button id="show_more_btn" type="button">Show More</button>
+ </body>
+ </html>
